@@ -1,0 +1,60 @@
+h1::first-letter{
+    color: darkblue;
+}
+
+p::first-line{
+    color: darkblue;
+}
+
+h1::before{
+    content:"🎖️";
+}
+
+h1::after{
+    content:"🎖️";
+}
+ol li::marker{
+    content:"🎖️"
+}
+p::selection{
+    background-color: crimson;
+    color: aqua;
+}
+a{
+    font-size: 2rem;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: grey;
+}
+a:hover{
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+}
+a:active{
+    background-color: red;
+    color: green;
+}
+p:hover{
+    background-color: lightgreen;
+}
+iframe{
+    width: 500px;
+    height: 500px;
+}
+img{
+    width: 500px;
+}
+body{
+    background-color: white;
+}
+img:hover{
+    /*filter:grayscale(100%) ;*/
+    /*filter:blur(10px) ;*/
+    /*filter: invert(100%);*/
+    /*filter: drop-shadow(10px 10px 10px);*/
+    box-shadow: 10px 10px 10px;
+}
